@@ -81,7 +81,7 @@ export default {
   },
   methods: {
     cancelAdd() {
-      this.$emit('change', '');
+      // this.$emit('change', '');
     },
     handleClick(item) {
       const { action, disabled } = item;
