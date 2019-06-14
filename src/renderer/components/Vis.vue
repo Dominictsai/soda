@@ -386,8 +386,8 @@ export default {
         });
         this.dragging = true;
         if (this.$refs.toolbox) {
-          this.networkInst.disableEditMode();
-          this.$refs.toolbox.cancelAdd();
+          // this.networkInst.disableEditMode();
+          // this.$refs.toolbox.cancelAdd();
         }
       });
       this.networkInst.on('dragEnd', (event) => {
